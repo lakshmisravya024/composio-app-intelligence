@@ -1,0 +1,796 @@
+[
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "errors": [],
+    "human_review_required": true
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "errors": [],
+    "human_review_required": true
+  },
+  {
+    "id": 3,
+    "app": "Pipedrive",
+    "errors": [],
+    "human_review_required": true
+  },
+  {
+    "id": 4,
+    "app": "Attio",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 5,
+    "app": "Twenty",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 6,
+    "app": "Podio",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 7,
+    "app": "Zoho CRM",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 8,
+    "app": "Close",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 9,
+    "app": "Copper",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 10,
+    "app": "DealCloud",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 11,
+    "app": "Zendesk",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 12,
+    "app": "Intercom",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 13,
+    "app": "Freshdesk",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 14,
+    "app": "Front",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 15,
+    "app": "Pylon",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 16,
+    "app": "LiveAgent",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 17,
+    "app": "Plain",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 18,
+    "app": "Help Scout",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 19,
+    "app": "Gorgias",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 20,
+    "app": "Gladly",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 21,
+    "app": "Slack",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 22,
+    "app": "Twilio",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 23,
+    "app": "Zoho Cliq",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 24,
+    "app": "Lark (Larksuite)",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 25,
+    "app": "Pumble",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 26,
+    "app": "Discord",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 27,
+    "app": "Telegram",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 28,
+    "app": "WhatsApp Business",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 29,
+    "app": "Aircall",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 30,
+    "app": "Vonage",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 31,
+    "app": "Google Ads",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 32,
+    "app": "Meta Ads",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 33,
+    "app": "LinkedIn Ads",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 35,
+    "app": "Mailchimp",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 37,
+    "app": "systeme.io",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 38,
+    "app": "Pinterest",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 39,
+    "app": "Threads",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 40,
+    "app": "SendGrid",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 42,
+    "app": "WooCommerce",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 45,
+    "app": "Magento (Adobe Commerce)",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 46,
+    "app": "Squarespace",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 47,
+    "app": "Ecwid",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 52,
+    "app": "SE Ranking",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 54,
+    "app": "MrScraper",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 55,
+    "app": "Apify",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 56,
+    "app": "Firecrawl",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 57,
+    "app": "Bright Data",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 58,
+    "app": "Sherlock",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 59,
+    "app": "Waterfall.io",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 62,
+    "app": "Vercel",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 63,
+    "app": "Netlify",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 64,
+    "app": "Cloudflare",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 65,
+    "app": "Supabase",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 66,
+    "app": "Neo4j",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 67,
+    "app": "Snowflake",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 70,
+    "app": "Sentry",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 71,
+    "app": "Notion",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 72,
+    "app": "Airtable",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 74,
+    "app": "Jira",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 75,
+    "app": "Asana",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 77,
+    "app": "ClickUp",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 78,
+    "app": "Coda",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 79,
+    "app": "Smartsheet",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 80,
+    "app": "Harvest",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 82,
+    "app": "Plaid",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 83,
+    "app": "Binance",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 86,
+    "app": "QuickBooks",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 87,
+    "app": "Xero",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 89,
+    "app": "Ramp",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 91,
+    "app": "NotebookLM",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 92,
+    "app": "Otter AI",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 93,
+    "app": "Fathom",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 94,
+    "app": "Consensus",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 95,
+    "app": "Reducto",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 96,
+    "app": "Devin",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 97,
+    "app": "higgsfield",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 98,
+    "app": "Mermaid CLI",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  },
+  {
+    "id": 100,
+    "app": "Grain",
+    "errors": [
+      "no_evidence"
+    ],
+    "human_review_required": true
+  }
+]

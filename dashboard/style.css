@@ -1,0 +1,293 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6fa;
+    color: #172033;
+    line-height: 1.6;
+}
+
+header {
+    background: #173653;
+    color: white;
+    padding: 65px 9%;
+}
+
+.eyebrow, .kicker {
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #8ca8c5;
+}
+
+h1 {
+    font-size: 58px;
+    margin: 15px 0;
+}
+
+.sub {
+    color: #d5e0eb;
+    max-width: 650px;
+}
+
+.status {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 9px 15px;
+    border: 1px solid #9db3c9;
+    border-radius: 25px;
+    font-size: 11px;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 35px 25px;
+}
+
+section {
+    margin-bottom: 55px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    background: white;
+    padding: 45px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px #1720330a;
+}
+
+.hero h2 {
+    font-size: 30px;
+    max-width: 650px;
+    margin: 12px 0;
+}
+
+.hero p {
+    color: #64748b;
+    max-width: 650px;
+}
+
+.hero-stat {
+    min-width: 140px;
+    text-align: center;
+    background: #edf3f9;
+    padding: 25px;
+    border-radius: 14px;
+}
+
+.hero-stat strong {
+    display: block;
+    font-size: 48px;
+    color: #173653;
+}
+
+.hero-stat span, .cards span {
+    color: #64748b;
+    font-size: 13px;
+}
+
+.section-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+    margin-bottom: 22px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 8px;
+}
+
+.section-head p {
+    color: #8490a0;
+    font-size: 12px;
+    max-width: 280px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+}
+
+.cards article {
+    background: white;
+    border: 1px solid #e7ebf1;
+    border-radius: 13px;
+    padding: 25px;
+}
+
+.cards b {
+    display: block;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.panel {
+    background: white;
+    padding: 28px;
+    border: 1px solid #e7ebf1;
+    border-radius: 14px;
+    color: #64748b;
+}
+
+.flow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.flow div {
+    background: white;
+    padding: 25px;
+    border-radius: 13px;
+    border: 1px solid #e7ebf1;
+    color: #315b85;
+    font-size: 13px;
+}
+
+.flow b {
+    display: block;
+    color: #172033;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.flow small {
+    color: #64748b;
+}
+
+.note {
+    margin-top: 20px;
+    color: #64748b;
+    font-size: 13px;
+}
+
+input {
+    padding: 12px 15px;
+    border: 1px solid #dce2ea;
+    border-radius: 8px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #315b85;
+}
+
+.table-wrap {
+    overflow-x: auto;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e7ebf1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 950px;
+    font-size: 13px;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #edf0f4;
+}
+
+th {
+    background: #edf3f9;
+    color: #315b85;
+}
+
+td a {
+    color: #315b85;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #8490a0;
+    font-size: 12px;
+}
+
+.insight-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+}
+
+.insight-card {
+    background: white;
+    border: 1px solid #e7ebf1;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.insight-card h3 {
+    margin-bottom: 18px;
+    font-size: 16px;
+}
+
+.bar-row {
+    margin-bottom: 15px;
+}
+
+.bar-label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 6px;
+    gap: 10px;
+}
+
+.bar-track {
+    height: 9px;
+    background: #e9edf3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bar-fill {
+    height: 100%;
+    background: #315b85;
+    border-radius: 10px;
+}
+
+@media(max-width: 750px) {
+    header {
+        padding: 40px 6%;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .hero, .section-head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .flow {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(max-width: 450px) {
+    .cards, .flow {
+        grid-template-columns: 1fr;
+    }
+}

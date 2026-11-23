@@ -1,0 +1,30 @@
+{
+  "id": "integer",
+  "app": "string",
+  "category": "string",
+  "what_it_does": "one-line string",
+  "auth_methods": [
+    "OAuth2",
+    "API key",
+    "Basic",
+    "Bearer/token",
+    "Other",
+    "Unknown"
+  ],
+  "access_model": "self-serve_free|self-serve_trial|paid_required|admin_approval|partner_or_sales_gated|unknown",
+  "api_type": "REST|GraphQL|REST+GraphQL|SDK_only|CLI_only|No_public_API|unknown",
+  "api_breadth": "broad|moderate|narrow|unknown",
+  "mcp_status": "official|community|none_found|unknown",
+  "buildability": "ready|buildable_with_constraints|outreach_required|not_buildable|unknown",
+  "main_blocker": "string",
+  "evidence": [
+    {
+      "url": "https://...",
+      "claim_supported": "string",
+      "source_type": "official_docs|pricing|github|other"
+    }
+  ],
+  "confidence": "high|medium|low",
+  "human_review_required": "boolean",
+  "notes": "string"
+}

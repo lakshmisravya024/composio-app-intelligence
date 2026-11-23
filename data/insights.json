@@ -1,0 +1,31 @@
+{
+  "records": 100,
+  "auth_methods": {
+    "['Unknown']": 97,
+    "['OAuth2', 'Bearer/token']": 2,
+    "['OAuth2', 'API key']": 1
+  },
+  "access_model": {
+    "unknown": 97,
+    "self-serve_free": 2,
+    "self-serve_trial": 1
+  },
+  "api_type": {
+    "unknown": 97,
+    "REST": 2,
+    "REST+GraphQL": 1
+  },
+  "api_breadth": {
+    "unknown": 97,
+    "broad": 3
+  },
+  "mcp_status": {
+    "unknown": 97,
+    "official": 3
+  },
+  "buildability": {
+    "unknown": 97,
+    "buildable_with_constraints": 3
+  },
+  "human_review_required": 100
+}

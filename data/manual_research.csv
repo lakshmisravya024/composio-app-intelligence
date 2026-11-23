@@ -1,0 +1,101 @@
+﻿id,app,category,what_it_does,auth_methods,access_model,api_type,api_breadth,mcp_status,buildability,main_blocker,evidence,confidence,human_review_required,notes
+1,Salesforce,CRM and Sales,"CRM platform for managing customer relationships, sales, service and business data","OAuth2; Bearer/token",self-serve_free,REST+GraphQL,broad,official,buildable_with_constraints,"Requires an eligible Salesforce org, External Client App registration, OAuth configuration and appropriate permissions","https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html; https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/setup-overview.html; https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/client-connection-overview.html; https://trailhead.salesforce.com/content/learn/modules/api_basics/api_basics_overview",high,true,"Developer Edition is available for testing; production API availability depends on edition and permissions."
+2,HubSpot,CRM and Sales,"CRM platform for managing contacts companies deals marketing and customer service","OAuth2; Bearer/token","self-serve_free",REST,broad,official,buildable_with_constraints,"Requires a HubSpot account, MCP Auth App setup, OAuth PKCE and appropriate CRM scopes","https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server; https://developers.hubspot.com/changelog/remote-hubspot-mcp-server-is-now-generally-available; https://developers.hubspot.com/blog/harnessing-the-power-of-hubspots-public-apis-with-postman",high,true,"Remote hosted MCP server is generally available; private-app access tokens and OAuth are supported."
+3,Pipedrive,CRM and Sales,"CRM platform for managing sales pipelines deals leads contacts and activities","OAuth2; API key","self-serve_trial",REST,broad,official,buildable_with_constraints,"Requires a Pipedrive account, API credentials or OAuth app registration, appropriate permissions and plan-based usage limits","https://developers.pipedrive.com/docs/api/v1; https://developers.pipedrive.com/docs/api/v1/Oauth; https://support.pipedrive.com/en/article/mcp",medium,true,"Native MCP server is available; API v1 is out of support as of August 2026, so investigate API v2 for new integrations."
+4,Attio,CRM and Sales,,,,,,,,,,low,true,Starting documentation: https://docs.attio.com
+5,Twenty,CRM and Sales,,,,,,,,,,low,true,Starting documentation: https://docs.twenty.com
+6,Podio,CRM and Sales,,,,,,,,,,low,true,Starting documentation: https://developers.podio.com
+7,Zoho CRM,CRM and Sales,,,,,,,,,,low,true,Starting documentation: https://www.zoho.com/crm/developer/docs/api/v7/
+8,Close,CRM and Sales,,,,,,,,,,low,true,Starting documentation: https://developer.close.com
+9,Copper,CRM and Sales,,,,,,,,,,low,true,Starting documentation: https://developer.copper.com
+10,DealCloud,CRM and Sales,,,,,,,,,,low,true,Starting documentation: https://api.docs.dealcloud.com
+11,Zendesk,Support and Helpdesk,,,,,,,,,,low,true,Starting documentation: https://developer.zendesk.com/api-reference/
+12,Intercom,Support and Helpdesk,,,,,,,,,,low,true,Starting documentation: https://developers.intercom.com
+13,Freshdesk,Support and Helpdesk,,,,,,,,,,low,true,Starting documentation: https://developers.freshdesk.com/api/
+14,Front,Support and Helpdesk,,,,,,,,,,low,true,Starting documentation: https://dev.frontapp.com
+15,Pylon,Support and Helpdesk,,,,,,,,,,low,true,Starting documentation: https://docs.usepylon.com
+16,LiveAgent,Support and Helpdesk,,,,,,,,,,low,true,Starting documentation: https://www.liveagent.com/api/
+17,Plain,Support and Helpdesk,,,,,,,,,,low,true,Starting documentation: https://www.plain.com/docs
+18,Help Scout,Support and Helpdesk,,,,,,,,,,low,true,Starting documentation: https://developer.helpscout.com
+19,Gorgias,Support and Helpdesk,,,,,,,,,,low,true,Starting documentation: https://developers.gorgias.com
+20,Gladly,Support and Helpdesk,,,,,,,,,,low,true,Starting documentation: https://developer.gladly.com
+21,Slack,Communications and Messaging,,,,,,,,,,low,true,Starting documentation: https://api.slack.com
+22,Twilio,Communications and Messaging,,,,,,,,,,low,true,Starting documentation: https://www.twilio.com/docs
+23,Zoho Cliq,Communications and Messaging,,,,,,,,,,low,true,Starting documentation: https://www.zoho.com/cliq/help/restapi/
+24,Lark (Larksuite),Communications and Messaging,,,,,,,,,,low,true,Starting documentation: https://open.larksuite.com/document/
+25,Pumble,Communications and Messaging,,,,,,,,,,low,true,Starting documentation: https://pumble.com/api
+26,Discord,Communications and Messaging,,,,,,,,,,low,true,Starting documentation: https://discord.com/developers/docs
+27,Telegram,Communications and Messaging,,,,,,,,,,low,true,Starting documentation: https://core.telegram.org/bots/api
+28,WhatsApp Business,Communications and Messaging,,,,,,,,,,low,true,Starting documentation: https://developers.facebook.com/docs/whatsapp
+29,Aircall,Communications and Messaging,,,,,,,,,,low,true,Starting documentation: https://developer.aircall.io
+30,Vonage,Communications and Messaging,,,,,,,,,,low,true,Starting documentation: https://developer.vonage.com
+31,Google Ads,"Marketing, Ads, Email and Social",,,,,,,,,,low,true,Starting documentation: https://developers.google.com/google-ads/api/docs/start
+32,Meta Ads,"Marketing, Ads, Email and Social",,,,,,,,,,low,true,Starting documentation: https://developers.facebook.com/docs/marketing-apis
+33,LinkedIn Ads,"Marketing, Ads, Email and Social",,,,,,,,,,low,true,Starting documentation: https://learn.microsoft.com/linkedin/marketing/
+34,GoHighLevel,"Marketing, Ads, Email and Social",,,,,,,,,,low,true,Starting documentation: https://highlevel.stoplight.io
+35,Mailchimp,"Marketing, Ads, Email and Social",,,,,,,,,,low,true,Starting documentation: https://mailchimp.com/developer/
+36,Klaviyo,"Marketing, Ads, Email and Social",,,,,,,,,,low,true,Starting documentation: https://developers.klaviyo.com
+37,systeme.io,"Marketing, Ads, Email and Social",,,,,,,,,,low,true,Starting documentation: https://systeme.io
+38,Pinterest,"Marketing, Ads, Email and Social",,,,,,,,,,low,true,Starting documentation: https://developers.pinterest.com
+39,Threads,"Marketing, Ads, Email and Social",,,,,,,,,,low,true,Starting documentation: https://developers.facebook.com/docs/threads
+40,SendGrid,"Marketing, Ads, Email and Social",,,,,,,,,,low,true,Starting documentation: https://www.twilio.com/docs/sendgrid
+41,Shopify,Ecommerce,,,,,,,,,,low,true,Starting documentation: https://shopify.dev/docs/api
+42,WooCommerce,Ecommerce,,,,,,,,,,low,true,Starting documentation: https://woocommerce.com/document/woocommerce-rest-api/
+43,BigCommerce,Ecommerce,,,,,,,,,,low,true,Starting documentation: https://developer.bigcommerce.com
+44,Salesforce Commerce Cloud,Ecommerce,,,,,,,,,,low,true,Starting documentation: https://developer.salesforce.com/docs/commerce
+45,Magento (Adobe Commerce),Ecommerce,,,,,,,,,,low,true,Starting documentation: https://developer.adobe.com/commerce/webapi/
+46,Squarespace,Ecommerce,,,,,,,,,,low,true,Starting documentation: https://developers.squarespace.com
+47,Ecwid,Ecommerce,,,,,,,,,,low,true,Starting documentation: https://api-docs.ecwid.com
+48,Gumroad,Ecommerce,,,,,,,,,,low,true,Starting documentation: https://gumroad.com/api
+49,Amazon Selling Partner,Ecommerce,,,,,,,,,,low,true,Starting documentation: https://developer-docs.amazon.com/sp-api
+50,fanbasis,Ecommerce,,,,,,,,,,low,true,Starting documentation: https://fanbasis.com
+51,DataForSEO,"Data, SEO and Scraping",,,,,,,,,,low,true,Starting documentation: https://docs.dataforseo.com
+52,SE Ranking,"Data, SEO and Scraping",,,,,,,,,,low,true,Starting documentation: https://seranking.com/api
+53,Ahrefs,"Data, SEO and Scraping",,,,,,,,,,low,true,Starting documentation: https://docs.ahrefs.com
+54,MrScraper,"Data, SEO and Scraping",,,,,,,,,,low,true,Starting documentation: https://docs.mrscraper.com
+55,Apify,"Data, SEO and Scraping",,,,,,,,,,low,true,Starting documentation: https://docs.apify.com
+56,Firecrawl,"Data, SEO and Scraping",,,,,,,,,,low,true,Starting documentation: https://docs.firecrawl.dev
+57,Bright Data,"Data, SEO and Scraping",,,,,,,,,,low,true,Starting documentation: https://docs.brightdata.com
+58,Sherlock,"Data, SEO and Scraping",,,,,,,,,,low,true,Starting documentation: https://github.com/sherlock-project/sherlock
+59,Waterfall.io,"Data, SEO and Scraping",,,,,,,,,,low,true,Starting documentation: https://waterfall.io
+60,Clay,"Data, SEO and Scraping",,,,,,,,,,low,true,Starting documentation: https://university.clay.com
+61,GitHub,"Developer, Infra and Data platforms",,,,,,,,,,low,true,Starting documentation: https://docs.github.com/rest
+62,Vercel,"Developer, Infra and Data platforms",,,,,,,,,,low,true,Starting documentation: https://vercel.com/docs/rest-api
+63,Netlify,"Developer, Infra and Data platforms",,,,,,,,,,low,true,Starting documentation: https://docs.netlify.com/api-and-cli-guides/api-guides/
+64,Cloudflare,"Developer, Infra and Data platforms",,,,,,,,,,low,true,Starting documentation: https://developers.cloudflare.com/api/
+65,Supabase,"Developer, Infra and Data platforms",,,,,,,,,,low,true,Starting documentation: https://supabase.com/docs
+66,Neo4j,"Developer, Infra and Data platforms",,,,,,,,,,low,true,Starting documentation: https://neo4j.com/docs/query-api/current/
+67,Snowflake,"Developer, Infra and Data platforms",,,,,,,,,,low,true,Starting documentation: https://docs.snowflake.com/en/developer-guide/sql-api/
+68,MongoDB Atlas,"Developer, Infra and Data platforms",,,,,,,,,,low,true,Starting documentation: https://www.mongodb.com/docs/atlas/api/
+69,Datadog,"Developer, Infra and Data platforms",,,,,,,,,,low,true,Starting documentation: https://docs.datadoghq.com/api/
+70,Sentry,"Developer, Infra and Data platforms",,,,,,,,,,low,true,Starting documentation: https://docs.sentry.io/api/
+71,Notion,Productivity and Project Management,,,,,,,,,,low,true,Starting documentation: https://developers.notion.com
+72,Airtable,Productivity and Project Management,,,,,,,,,,low,true,Starting documentation: https://airtable.com/developers/web/api/introduction
+73,Linear,Productivity and Project Management,,,,,,,,,,low,true,Starting documentation: https://developers.linear.app
+74,Jira,Productivity and Project Management,,,,,,,,,,low,true,Starting documentation: https://developer.atlassian.com/cloud/jira/platform/rest/v3/
+75,Asana,Productivity and Project Management,,,,,,,,,,low,true,Starting documentation: https://developers.asana.com
+76,Monday.com,Productivity and Project Management,,,,,,,,,,low,true,Starting documentation: https://developer.monday.com/api-reference/docs
+77,ClickUp,Productivity and Project Management,,,,,,,,,,low,true,Starting documentation: https://clickup.com/api
+78,Coda,Productivity and Project Management,,,,,,,,,,low,true,Starting documentation: https://coda.io/developers/apis/v1
+79,Smartsheet,Productivity and Project Management,,,,,,,,,,low,true,Starting documentation: https://developers.smartsheet.com
+80,Harvest,Productivity and Project Management,,,,,,,,,,low,true,Starting documentation: https://help.getharvest.com/api-v2/
+81,Stripe,Finance and Fintech,,,,,,,,,,low,true,Starting documentation: https://docs.stripe.com/api
+82,Plaid,Finance and Fintech,,,,,,,,,,low,true,Starting documentation: https://plaid.com/docs
+83,Binance,Finance and Fintech,,,,,,,,,,low,true,Starting documentation: https://developers.binance.com/docs
+84,Paygent Connect,Finance and Fintech,,,,,,,,,,low,true,Starting documentation: https://www.nmi.com
+85,iPayX,Finance and Fintech,,,,,,,,,,low,true,Starting documentation: https://ipayx.ai/docs
+86,QuickBooks,Finance and Fintech,,,,,,,,,,low,true,Starting documentation: https://developer.intuit.com/app/developer/qbo/docs/get-started
+87,Xero,Finance and Fintech,,,,,,,,,,low,true,Starting documentation: https://developer.xero.com/documentation/
+88,Brex,Finance and Fintech,,,,,,,,,,low,true,Starting documentation: https://developer.brex.com
+89,Ramp,Finance and Fintech,,,,,,,,,,low,true,Starting documentation: https://docs.ramp.com
+90,PitchBook,Finance and Fintech,,,,,,,,,,low,true,Starting documentation: https://pitchbook.com
+91,NotebookLM,"AI, Research and Media-native",,,,,,,,,,low,true,Starting documentation: https://cloud.google.com/gemini
+92,Otter AI,"AI, Research and Media-native",,,,,,,,,,low,true,Starting documentation: https://help.otter.ai
+93,Fathom,"AI, Research and Media-native",,,,,,,,,,low,true,Starting documentation: https://developers.fathom.ai
+94,Consensus,"AI, Research and Media-native",,,,,,,,,,low,true,Starting documentation: https://consensus.app
+95,Reducto,"AI, Research and Media-native",,,,,,,,,,low,true,Starting documentation: https://docs.reducto.ai
+96,Devin,"AI, Research and Media-native",,,,,,,,,,low,true,Starting documentation: https://docs.devin.ai
+97,higgsfield,"AI, Research and Media-native",,,,,,,,,,low,true,Starting documentation: https://higgsfield.ai/cli
+98,Mermaid CLI,"AI, Research and Media-native",,,,,,,,,,low,true,Starting documentation: https://github.com/mermaid-js/mermaid-cli
+99,YouTube Transcript,"AI, Research and Media-native",,,,,,,,,,low,true,Starting documentation: https://transcriptapi.com
+100,Grain,"AI, Research and Media-native",,,,,,,,,,low,true,Starting documentation: https://grain.com

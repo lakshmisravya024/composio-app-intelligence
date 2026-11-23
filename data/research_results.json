@@ -1,0 +1,1958 @@
+[
+  {
+    "id": 1,
+    "app": "Salesforce",
+    "category": "CRM and Sales",
+    "what_it_does": "CRM platform for managing customer relationships, sales, service and business data",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer/token"
+    ],
+    "access_model": "self-serve_free",
+    "api_type": "REST+GraphQL",
+    "api_breadth": "broad",
+    "mcp_status": "official",
+    "buildability": "buildable_with_constraints",
+    "main_blocker": "Requires an eligible Salesforce org, External Client App registration, OAuth configuration and appropriate permissions",
+    "evidence": [
+      {
+        "url": "https://developer.salesforce.com/docs/platform/api-rest/guide/intro-oauth-and-connected-apps.html",
+        "claim_supported": "Official source supplied for this app. Manually verify the specific claim supported.",
+        "source_type": "official_docs"
+      },
+      {
+        "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/setup-overview.html",
+        "claim_supported": "Official source supplied for this app. Manually verify the specific claim supported.",
+        "source_type": "official_docs"
+      },
+      {
+        "url": "https://developer.salesforce.com/docs/platform/hosted-mcp-servers/guide/client-connection-overview.html",
+        "claim_supported": "Official source supplied for this app. Manually verify the specific claim supported.",
+        "source_type": "official_docs"
+      },
+      {
+        "url": "https://trailhead.salesforce.com/content/learn/modules/api_basics/api_basics_overview",
+        "claim_supported": "Official source supplied for this app. Manually verify the specific claim supported.",
+        "source_type": "official_docs"
+      }
+    ],
+    "confidence": "high",
+    "human_review_required": true,
+    "notes": "Developer Edition is available for testing; production API availability depends on edition and permissions."
+  },
+  {
+    "id": 2,
+    "app": "HubSpot",
+    "category": "CRM and Sales",
+    "what_it_does": "CRM platform for managing contacts companies deals marketing and customer service",
+    "auth_methods": [
+      "OAuth2",
+      "Bearer/token"
+    ],
+    "access_model": "self-serve_free",
+    "api_type": "REST",
+    "api_breadth": "broad",
+    "mcp_status": "official",
+    "buildability": "buildable_with_constraints",
+    "main_blocker": "Requires a HubSpot account, MCP Auth App setup, OAuth PKCE and appropriate CRM scopes",
+    "evidence": [
+      {
+        "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server",
+        "claim_supported": "Official source supplied for this app. Manually verify the specific claim supported.",
+        "source_type": "official_docs"
+      },
+      {
+        "url": "https://developers.hubspot.com/changelog/remote-hubspot-mcp-server-is-now-generally-available",
+        "claim_supported": "Official source supplied for this app. Manually verify the specific claim supported.",
+        "source_type": "official_docs"
+      },
+      {
+        "url": "https://developers.hubspot.com/blog/harnessing-the-power-of-hubspots-public-apis-with-postman",
+        "claim_supported": "Official source supplied for this app. Manually verify the specific claim supported.",
+        "source_type": "official_docs"
+      }
+    ],
+    "confidence": "high",
+    "human_review_required": true,
+    "notes": "Remote hosted MCP server is generally available; private-app access tokens and OAuth are supported."
+  },
+  {
+    "id": 3,
+    "app": "Pipedrive",
+    "category": "CRM and Sales",
+    "what_it_does": "CRM platform for managing sales pipelines deals leads contacts and activities",
+    "auth_methods": [
+      "OAuth2",
+      "API key"
+    ],
+    "access_model": "self-serve_trial",
+    "api_type": "REST",
+    "api_breadth": "broad",
+    "mcp_status": "official",
+    "buildability": "buildable_with_constraints",
+    "main_blocker": "Requires a Pipedrive account, API credentials or OAuth app registration, appropriate permissions and plan-based usage limits",
+    "evidence": [
+      {
+        "url": "https://developers.pipedrive.com/docs/api/v1",
+        "claim_supported": "Official source supplied for this app. Manually verify the specific claim supported.",
+        "source_type": "official_docs"
+      },
+      {
+        "url": "https://developers.pipedrive.com/docs/api/v1/Oauth",
+        "claim_supported": "Official source supplied for this app. Manually verify the specific claim supported.",
+        "source_type": "official_docs"
+      },
+      {
+        "url": "https://support.pipedrive.com/en/article/mcp",
+        "claim_supported": "Official source supplied for this app. Manually verify the specific claim supported.",
+        "source_type": "official_docs"
+      }
+    ],
+    "confidence": "medium",
+    "human_review_required": true,
+    "notes": "Native MCP server is available; API v1 is out of support as of August 2026, so investigate API v2 for new integrations."
+  },
+  {
+    "id": 4,
+    "app": "Attio",
+    "category": "CRM and Sales",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.attio.com"
+  },
+  {
+    "id": 5,
+    "app": "Twenty",
+    "category": "CRM and Sales",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.twenty.com"
+  },
+  {
+    "id": 6,
+    "app": "Podio",
+    "category": "CRM and Sales",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.podio.com"
+  },
+  {
+    "id": 7,
+    "app": "Zoho CRM",
+    "category": "CRM and Sales",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://www.zoho.com/crm/developer/docs/api/v7/"
+  },
+  {
+    "id": 8,
+    "app": "Close",
+    "category": "CRM and Sales",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.close.com"
+  },
+  {
+    "id": 9,
+    "app": "Copper",
+    "category": "CRM and Sales",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.copper.com"
+  },
+  {
+    "id": 10,
+    "app": "DealCloud",
+    "category": "CRM and Sales",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://api.docs.dealcloud.com"
+  },
+  {
+    "id": 11,
+    "app": "Zendesk",
+    "category": "Support and Helpdesk",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.zendesk.com/api-reference/"
+  },
+  {
+    "id": 12,
+    "app": "Intercom",
+    "category": "Support and Helpdesk",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.intercom.com"
+  },
+  {
+    "id": 13,
+    "app": "Freshdesk",
+    "category": "Support and Helpdesk",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.freshdesk.com/api/"
+  },
+  {
+    "id": 14,
+    "app": "Front",
+    "category": "Support and Helpdesk",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://dev.frontapp.com"
+  },
+  {
+    "id": 15,
+    "app": "Pylon",
+    "category": "Support and Helpdesk",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.usepylon.com"
+  },
+  {
+    "id": 16,
+    "app": "LiveAgent",
+    "category": "Support and Helpdesk",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://www.liveagent.com/api/"
+  },
+  {
+    "id": 17,
+    "app": "Plain",
+    "category": "Support and Helpdesk",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://www.plain.com/docs"
+  },
+  {
+    "id": 18,
+    "app": "Help Scout",
+    "category": "Support and Helpdesk",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.helpscout.com"
+  },
+  {
+    "id": 19,
+    "app": "Gorgias",
+    "category": "Support and Helpdesk",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.gorgias.com"
+  },
+  {
+    "id": 20,
+    "app": "Gladly",
+    "category": "Support and Helpdesk",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.gladly.com"
+  },
+  {
+    "id": 21,
+    "app": "Slack",
+    "category": "Communications and Messaging",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://api.slack.com"
+  },
+  {
+    "id": 22,
+    "app": "Twilio",
+    "category": "Communications and Messaging",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://www.twilio.com/docs"
+  },
+  {
+    "id": 23,
+    "app": "Zoho Cliq",
+    "category": "Communications and Messaging",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://www.zoho.com/cliq/help/restapi/"
+  },
+  {
+    "id": 24,
+    "app": "Lark (Larksuite)",
+    "category": "Communications and Messaging",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://open.larksuite.com/document/"
+  },
+  {
+    "id": 25,
+    "app": "Pumble",
+    "category": "Communications and Messaging",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://pumble.com/api"
+  },
+  {
+    "id": 26,
+    "app": "Discord",
+    "category": "Communications and Messaging",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://discord.com/developers/docs"
+  },
+  {
+    "id": 27,
+    "app": "Telegram",
+    "category": "Communications and Messaging",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://core.telegram.org/bots/api"
+  },
+  {
+    "id": 28,
+    "app": "WhatsApp Business",
+    "category": "Communications and Messaging",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.facebook.com/docs/whatsapp"
+  },
+  {
+    "id": 29,
+    "app": "Aircall",
+    "category": "Communications and Messaging",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.aircall.io"
+  },
+  {
+    "id": 30,
+    "app": "Vonage",
+    "category": "Communications and Messaging",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.vonage.com"
+  },
+  {
+    "id": 31,
+    "app": "Google Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.google.com/google-ads/api/docs/start"
+  },
+  {
+    "id": 32,
+    "app": "Meta Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.facebook.com/docs/marketing-apis"
+  },
+  {
+    "id": 33,
+    "app": "LinkedIn Ads",
+    "category": "Marketing, Ads, Email and Social",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://learn.microsoft.com/linkedin/marketing/"
+  },
+  {
+    "id": 34,
+    "app": "GoHighLevel",
+    "category": "Marketing, Ads, Email and Social",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://highlevel.stoplight.io"
+  },
+  {
+    "id": 35,
+    "app": "Mailchimp",
+    "category": "Marketing, Ads, Email and Social",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://mailchimp.com/developer/"
+  },
+  {
+    "id": 36,
+    "app": "Klaviyo",
+    "category": "Marketing, Ads, Email and Social",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.klaviyo.com"
+  },
+  {
+    "id": 37,
+    "app": "systeme.io",
+    "category": "Marketing, Ads, Email and Social",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://systeme.io"
+  },
+  {
+    "id": 38,
+    "app": "Pinterest",
+    "category": "Marketing, Ads, Email and Social",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.pinterest.com"
+  },
+  {
+    "id": 39,
+    "app": "Threads",
+    "category": "Marketing, Ads, Email and Social",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.facebook.com/docs/threads"
+  },
+  {
+    "id": 40,
+    "app": "SendGrid",
+    "category": "Marketing, Ads, Email and Social",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://www.twilio.com/docs/sendgrid"
+  },
+  {
+    "id": 41,
+    "app": "Shopify",
+    "category": "Ecommerce",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://shopify.dev/docs/api"
+  },
+  {
+    "id": 42,
+    "app": "WooCommerce",
+    "category": "Ecommerce",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://woocommerce.com/document/woocommerce-rest-api/"
+  },
+  {
+    "id": 43,
+    "app": "BigCommerce",
+    "category": "Ecommerce",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.bigcommerce.com"
+  },
+  {
+    "id": 44,
+    "app": "Salesforce Commerce Cloud",
+    "category": "Ecommerce",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.salesforce.com/docs/commerce"
+  },
+  {
+    "id": 45,
+    "app": "Magento (Adobe Commerce)",
+    "category": "Ecommerce",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.adobe.com/commerce/webapi/"
+  },
+  {
+    "id": 46,
+    "app": "Squarespace",
+    "category": "Ecommerce",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.squarespace.com"
+  },
+  {
+    "id": 47,
+    "app": "Ecwid",
+    "category": "Ecommerce",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://api-docs.ecwid.com"
+  },
+  {
+    "id": 48,
+    "app": "Gumroad",
+    "category": "Ecommerce",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://gumroad.com/api"
+  },
+  {
+    "id": 49,
+    "app": "Amazon Selling Partner",
+    "category": "Ecommerce",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer-docs.amazon.com/sp-api"
+  },
+  {
+    "id": 50,
+    "app": "fanbasis",
+    "category": "Ecommerce",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://fanbasis.com"
+  },
+  {
+    "id": 51,
+    "app": "DataForSEO",
+    "category": "Data, SEO and Scraping",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.dataforseo.com"
+  },
+  {
+    "id": 52,
+    "app": "SE Ranking",
+    "category": "Data, SEO and Scraping",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://seranking.com/api"
+  },
+  {
+    "id": 53,
+    "app": "Ahrefs",
+    "category": "Data, SEO and Scraping",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.ahrefs.com"
+  },
+  {
+    "id": 54,
+    "app": "MrScraper",
+    "category": "Data, SEO and Scraping",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.mrscraper.com"
+  },
+  {
+    "id": 55,
+    "app": "Apify",
+    "category": "Data, SEO and Scraping",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.apify.com"
+  },
+  {
+    "id": 56,
+    "app": "Firecrawl",
+    "category": "Data, SEO and Scraping",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.firecrawl.dev"
+  },
+  {
+    "id": 57,
+    "app": "Bright Data",
+    "category": "Data, SEO and Scraping",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.brightdata.com"
+  },
+  {
+    "id": 58,
+    "app": "Sherlock",
+    "category": "Data, SEO and Scraping",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://github.com/sherlock-project/sherlock"
+  },
+  {
+    "id": 59,
+    "app": "Waterfall.io",
+    "category": "Data, SEO and Scraping",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://waterfall.io"
+  },
+  {
+    "id": 60,
+    "app": "Clay",
+    "category": "Data, SEO and Scraping",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://university.clay.com"
+  },
+  {
+    "id": 61,
+    "app": "GitHub",
+    "category": "Developer, Infra and Data platforms",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.github.com/rest"
+  },
+  {
+    "id": 62,
+    "app": "Vercel",
+    "category": "Developer, Infra and Data platforms",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://vercel.com/docs/rest-api"
+  },
+  {
+    "id": 63,
+    "app": "Netlify",
+    "category": "Developer, Infra and Data platforms",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.netlify.com/api-and-cli-guides/api-guides/"
+  },
+  {
+    "id": 64,
+    "app": "Cloudflare",
+    "category": "Developer, Infra and Data platforms",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.cloudflare.com/api/"
+  },
+  {
+    "id": 65,
+    "app": "Supabase",
+    "category": "Developer, Infra and Data platforms",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://supabase.com/docs"
+  },
+  {
+    "id": 66,
+    "app": "Neo4j",
+    "category": "Developer, Infra and Data platforms",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://neo4j.com/docs/query-api/current/"
+  },
+  {
+    "id": 67,
+    "app": "Snowflake",
+    "category": "Developer, Infra and Data platforms",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.snowflake.com/en/developer-guide/sql-api/"
+  },
+  {
+    "id": 68,
+    "app": "MongoDB Atlas",
+    "category": "Developer, Infra and Data platforms",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://www.mongodb.com/docs/atlas/api/"
+  },
+  {
+    "id": 69,
+    "app": "Datadog",
+    "category": "Developer, Infra and Data platforms",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.datadoghq.com/api/"
+  },
+  {
+    "id": 70,
+    "app": "Sentry",
+    "category": "Developer, Infra and Data platforms",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.sentry.io/api/"
+  },
+  {
+    "id": 71,
+    "app": "Notion",
+    "category": "Productivity and Project Management",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.notion.com"
+  },
+  {
+    "id": 72,
+    "app": "Airtable",
+    "category": "Productivity and Project Management",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://airtable.com/developers/web/api/introduction"
+  },
+  {
+    "id": 73,
+    "app": "Linear",
+    "category": "Productivity and Project Management",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.linear.app"
+  },
+  {
+    "id": 74,
+    "app": "Jira",
+    "category": "Productivity and Project Management",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.atlassian.com/cloud/jira/platform/rest/v3/"
+  },
+  {
+    "id": 75,
+    "app": "Asana",
+    "category": "Productivity and Project Management",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.asana.com"
+  },
+  {
+    "id": 76,
+    "app": "Monday.com",
+    "category": "Productivity and Project Management",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.monday.com/api-reference/docs"
+  },
+  {
+    "id": 77,
+    "app": "ClickUp",
+    "category": "Productivity and Project Management",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://clickup.com/api"
+  },
+  {
+    "id": 78,
+    "app": "Coda",
+    "category": "Productivity and Project Management",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://coda.io/developers/apis/v1"
+  },
+  {
+    "id": 79,
+    "app": "Smartsheet",
+    "category": "Productivity and Project Management",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.smartsheet.com"
+  },
+  {
+    "id": 80,
+    "app": "Harvest",
+    "category": "Productivity and Project Management",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://help.getharvest.com/api-v2/"
+  },
+  {
+    "id": 81,
+    "app": "Stripe",
+    "category": "Finance and Fintech",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.stripe.com/api"
+  },
+  {
+    "id": 82,
+    "app": "Plaid",
+    "category": "Finance and Fintech",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://plaid.com/docs"
+  },
+  {
+    "id": 83,
+    "app": "Binance",
+    "category": "Finance and Fintech",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.binance.com/docs"
+  },
+  {
+    "id": 84,
+    "app": "Paygent Connect",
+    "category": "Finance and Fintech",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://www.nmi.com"
+  },
+  {
+    "id": 85,
+    "app": "iPayX",
+    "category": "Finance and Fintech",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://ipayx.ai/docs"
+  },
+  {
+    "id": 86,
+    "app": "QuickBooks",
+    "category": "Finance and Fintech",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.intuit.com/app/developer/qbo/docs/get-started"
+  },
+  {
+    "id": 87,
+    "app": "Xero",
+    "category": "Finance and Fintech",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.xero.com/documentation/"
+  },
+  {
+    "id": 88,
+    "app": "Brex",
+    "category": "Finance and Fintech",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developer.brex.com"
+  },
+  {
+    "id": 89,
+    "app": "Ramp",
+    "category": "Finance and Fintech",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.ramp.com"
+  },
+  {
+    "id": 90,
+    "app": "PitchBook",
+    "category": "Finance and Fintech",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://pitchbook.com"
+  },
+  {
+    "id": 91,
+    "app": "NotebookLM",
+    "category": "AI, Research and Media-native",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://cloud.google.com/gemini"
+  },
+  {
+    "id": 92,
+    "app": "Otter AI",
+    "category": "AI, Research and Media-native",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://help.otter.ai"
+  },
+  {
+    "id": 93,
+    "app": "Fathom",
+    "category": "AI, Research and Media-native",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://developers.fathom.ai"
+  },
+  {
+    "id": 94,
+    "app": "Consensus",
+    "category": "AI, Research and Media-native",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://consensus.app"
+  },
+  {
+    "id": 95,
+    "app": "Reducto",
+    "category": "AI, Research and Media-native",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.reducto.ai"
+  },
+  {
+    "id": 96,
+    "app": "Devin",
+    "category": "AI, Research and Media-native",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://docs.devin.ai"
+  },
+  {
+    "id": 97,
+    "app": "higgsfield",
+    "category": "AI, Research and Media-native",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://higgsfield.ai/cli"
+  },
+  {
+    "id": 98,
+    "app": "Mermaid CLI",
+    "category": "AI, Research and Media-native",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://github.com/mermaid-js/mermaid-cli"
+  },
+  {
+    "id": 99,
+    "app": "YouTube Transcript",
+    "category": "AI, Research and Media-native",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://transcriptapi.com"
+  },
+  {
+    "id": 100,
+    "app": "Grain",
+    "category": "AI, Research and Media-native",
+    "what_it_does": "",
+    "auth_methods": [
+      "Unknown"
+    ],
+    "access_model": "unknown",
+    "api_type": "unknown",
+    "api_breadth": "unknown",
+    "mcp_status": "unknown",
+    "buildability": "unknown",
+    "main_blocker": "",
+    "evidence": [],
+    "confidence": "low",
+    "human_review_required": true,
+    "notes": "Starting documentation: https://grain.com"
+  }
+]

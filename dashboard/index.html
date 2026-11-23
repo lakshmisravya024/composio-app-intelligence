@@ -1,0 +1,227 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>App Intelligence | Research Case Study</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="eyebrow">PRODUCT OPERATIONS • RESEARCH AUTOMATION</div>
+    <h1>App Intelligence</h1>
+    <p class="sub">
+        An evidence-first pipeline for deciding which SaaS apps
+        are ready to become agent toolkits.
+    </p>
+    <div class="status">RESEARCH DATASET · HUMAN VERIFICATION PENDING</div>
+</header>
+
+<main>
+
+    <section class="hero">
+        <div>
+            <span class="kicker">THE QUESTION</span>
+            <h2>Which integrations are buildable today—and what blocks the rest?</h2>
+            <p>
+                This case study organizes 100 apps across 10 categories
+                and evaluates API access, authentication, MCP availability,
+                buildability and evidence requirements.
+            </p>
+        </div>
+
+        <div class="hero-stat">
+            <strong>100</strong>
+            <span>apps in scope</span>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-head">
+            <div>
+                <span class="kicker">01 / FINDINGS</span>
+                <h2>Research coverage</h2>
+            </div>
+            <p>Live metrics calculated from the research dataset.</p>
+        </div>
+
+        <div class="cards">
+            <article>
+                <b id="total">0 / 100</b>
+                <span>Apps in dataset</span>
+            </article>
+
+            <article>
+                <b id="review">—</b>
+                <span>Need human review</span>
+            </article>
+
+            <article>
+                <b id="evidence">—</b>
+                <span>Evidence-backed records</span>
+            </article>
+
+            <article>
+                <b id="verified">NOT RUN</b>
+                <span>Verification status</span>
+            </article>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-head">
+            <div>
+                <span class="kicker">02 / PATTERNS</span>
+                <h2>What the data says</h2>
+            </div>
+            <p>Charts are generated from the actual JSON dataset.</p>
+        </div>
+
+        <div id="patterns" class="panel">
+            Loading research insights...
+        </div>
+    </section>
+
+    <section>
+        <div class="section-head">
+            <div>
+                <span class="kicker">03 / RESEARCH ENGINE</span>
+                <h2>How the pipeline works</h2>
+            </div>
+        </div>
+
+        <div class="flow">
+            <div>
+                01<br>
+                <b>Discover</b>
+                <small>Identify official documentation and API sources</small>
+            </div>
+
+            <div>
+                02<br>
+                <b>Extract</b>
+                <small>Organize research into structured CSV and JSON</small>
+            </div>
+
+            <div>
+                03<br>
+                <b>Validate</b>
+                <small>Check schema, evidence URLs and missing fields</small>
+            </div>
+
+            <div>
+                04<br>
+                <b>Review</b>
+                <small>Flag uncertain records for human verification</small>
+            </div>
+        </div>
+
+        <p class="note">
+            The project includes a Composio MCP session integration point.
+            MCP-assisted research should only be claimed if MCP tools
+            were actually invoked. Current research data includes
+            unverified records requiring human review.
+        </p>
+    </section>
+
+    <section>
+        <div class="section-head">
+            <div>
+                <span class="kicker">04 / APP MATRIX</span>
+                <h2>App-by-app assessment</h2>
+            </div>
+
+            <input
+                id="filter"
+                placeholder="Filter apps..."
+                aria-label="Filter apps"
+            >
+        </div>
+
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>App</th>
+                        <th>Category</th>
+                        <th>Auth</th>
+                        <th>Access</th>
+                        <th>API</th>
+                        <th>MCP</th>
+                        <th>Buildability</th>
+                        <th>Evidence</th>
+                    </tr>
+                </thead>
+
+                <tbody id="rows">
+                    <tr>
+                        <td colspan="8">Loading research records...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-head">
+            <div>
+                <span class="kicker">05 / TRUST</span>
+                <h2>Verification, not vibes</h2>
+            </div>
+        </div>
+
+        <div class="panel">
+            <p>
+                A schema validation pass does not establish factual accuracy.
+                Verification should report sample size, field-level agreement,
+                missed findings and corrected records.
+            </p>
+
+            <div id="verification">
+                Verification has not been completed.
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="section-head">
+            <div>
+                <span class="kicker">06 / REPRODUCIBILITY</span>
+                <h2>Run it yourself</h2>
+            </div>
+        </div>
+
+        <div class="panel">
+            <p>
+                Source repository:
+                <a href="#" id="repo">Add GitHub repository URL</a>
+            </p>
+
+            <p>
+                Research pipeline: Python, CSV-to-JSON import,
+                deterministic validation and research insights.
+            </p>
+
+            <p>
+                Evidence standard: official developer documentation first;
+                official pricing and access documentation for gating;
+                official GitHub repositories or vendor documentation
+                for MCP status.
+            </p>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    Built as a reproducible research workflow ·
+    Update findings only with verified evidence.
+</footer>
+
+<script src="app.js"></script>
+
+</body>
+</html>
