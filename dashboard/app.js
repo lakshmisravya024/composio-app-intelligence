@@ -49,13 +49,18 @@ async function load() {
 }
 
 function updateMetrics() {
-    $('#total').textContent = `${allRows.length} apps in dataset`;
+    // Total apps in the dataset
+    $('#total').textContent = allRows.length;
 
-    $('#review').textContent =
-        allRows.filter(x => x.human_review_required).length;
+    // All records still require human review
+    $('#review').textContent = allRows.length;
 
+    // Records that contain at least one evidence URL
     $('#evidence').textContent =
         allRows.filter(x => (x.evidence || []).length > 0).length;
+
+    // Verification is not complete yet
+    $('#verified').textContent = 'NOT RUN';
 }
 
 function countBy(field) {
